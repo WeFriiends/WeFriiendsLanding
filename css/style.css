@@ -10,7 +10,8 @@ body {
   
   .container {
     width: 1172px;
-    margin: auto;
+    max-width: 1172px;
+    margin: 0 auto;
     padding: 0;
   }
   
@@ -65,14 +66,6 @@ body {
   -o-transition: all 1s;                                  
 }
 
-/*.header-menu a:hover{
-  color: #000000;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-}*/
 
 .main-banner{
   background-color: #FFF1EC;
@@ -196,7 +189,7 @@ h1{
   font-size: 40px;
 }
 
-figure{
+.landing-card-item{
   width: 265px;
   /*height: 354px;*/
 }
@@ -381,17 +374,36 @@ footer a:hover{
   font-family: 'Inter';
   font-size: 40px;
   font-style: Medium;
-  padding-bottom: 43px;
+  margin-top: 130px;
 }
 
 .team-1{
-  background: url('../images/bv1.png') no-repeat center center;
-  height: 1755px;
+  margin: 0 auto;
+  position: relative;
+  background: url('../images/bv1.png') no-repeat top center;
   width: 100%;
-  padding-top: 107px;
-  
+  height: 1321px;
 }
 
+.team-3{
+  margin: 0 auto 0;
+  position: relative;
+  background: url('../images/bv1.png') no-repeat top center;
+  width: 100%;
+  height: 1421px;
+}
+
+
+.team-1-content, .team-3-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
 
 .team-img-left{
   margin-right: 17px;
@@ -402,33 +414,30 @@ footer a:hover{
 }
 
 .card-item{
-  margin-top: 70px;
+  /*margin-top: 70px;*/
   width: 832px;
+  margin-bottom: 30px;
 }
 
-.helen-card,
-.svitlana-card,
-.anastasia-ni-card,
-.zinaida-card,
-.natali-card,
-.katya-card,
-.elena-dr-card{
-  margin: 30px 0 0 0;
+.marina-card{
+  margin-bottom: 30px;
 }
 
-.helen-card .team-text,
+.elena-ba-card{
+  margin-top: -200px;
+  margin-bottom: 70px;
+}
+
+.elena-ba-img{
+  margin-top: 35px;
+}
+
+.marina-card .team-text,
 .svitlana-card .team-text,
 .anastasia-ni-card .team-text,
-.zinaida-card .team-text,
-.katya-card .team-text,
-.natali-card .team-text,
-.elena-dr-card .team-text{
+.elena-ba-card .team-text,
+.eleonora-card .team-text{
   width: 480px;
-}
-
-.helen-card .team-text{
-  text-indent: 9px;
-  width: 460px;
 }
 
 .team-name{
@@ -469,35 +478,30 @@ footer a:hover{
 }
 
 .team-2{
-  background: url('../images/bv2.png') no-repeat center center;
-  height: 1215px;
+  margin: -300px auto 0;
+  position: relative;
+  background: url('../images/bv2.png') no-repeat top center;
   width: 100%;
-  margin: -300px 0 205px;
+  height: 1230px;
 }
 
-.team-3{
-  background: url('../images/bv1.png') no-repeat center center;
-  height: 1155px;
-  width: 100%;
+.team-2-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
-.team-4{
-  background: url('../images/bv4.png') no-repeat center center;
-  height: 1455px;
-  width: 100%;
-  margin-top: -200px;
-}
-
-.sofia-card{
-  padding: 186px 0 50px;
-}
-
-.elena-ba-card{
-  margin-top: -20px;
+.kate-card{
+  margin-top: 60px;
 }
 
 .team-helped{
-  margin: 380px 0 152px;
+  margin: 80px 0 160px;
 }
 
 h3{
@@ -517,11 +521,6 @@ h3{
   margin-bottom: 0;
 }
 
-.team-helped-1,
-.team-helped-2,
-.team-helped-3{
-  margin: 0 30px;
-}
 
 .team-name-helped{
   font-family: 'Inter';
@@ -532,34 +531,25 @@ h3{
   margin: 12px 0 7px 0;
 }
 
-.team-helped-1 .team-name-helped{
-  margin-left: -70px;
-}
-
-.team-helped-2 .team-name-helped{
-  margin-left: -105px;
-}
-
-.team-helped-3 .team-name-helped{
-  margin-left: -25px;
-}
-
 .team-helped-occupacy{
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
 }
 
-.team-helped-1 .team-helped-occupacy{
-  margin-left: -101px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
 }
 
-.team-helped-2 .team-helped-occupacy{
-  margin-left: -119px;
+.team-helped-item{
+  max-width: 200px;
 }
 
-.team-helped-3 .team-helped-occupacy{
-  margin-left: -166px;
+.team-helped-item img{
+  margin-left: 40px;
 }
 
 .team-join{
@@ -674,23 +664,19 @@ h3 .button-donate {
   background-color: #F46B5D;
 }
 
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1200px){
+  .container{
+    width: 90%;
+  }
+
   .form div button{
     margin-top: 30px;
   }
 
-  .team-helped-1,
-  .team-helped-2,
-  .team-helped-3{
-    margin: 20px 10px;
-  }
 
 }
 
 @media screen and (max-width: 991px){
-  .container{
-    width: 90%;
-  }
   
   .media__menu {
     height: 0%;
@@ -772,40 +758,63 @@ a.close__btn {
   margin-top: 30px;
 }
 
+.team-title{
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+
 .team-1,
 .team-2,
-.team-3,
-.team-4{
+.team-3{
   background: none;
+  height: auto;
+}
 
+.team-1-content,
+.team-2-content,
+.team-3-content{
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
 }
 
 .team-2{
-  margin-bottom: 180px;
+  margin: 0 auto 0;
 }
 
 .team-3{
-  margin-bottom: 40px;
+  margin: 240px auto 0;
 }
 
 .card-item{
   width: auto;
 }
 
-.helen-card .team-text,
+.marina-card .team-text,
 .svitlana-card .team-text,
-.zinaida-card .team-text,
-.natali-card .team-text,
-.katya-card .team-text,
-.anastasia-ni-card .team-text,
-.elena-dr-card .team-text{
+.elena-ba-card .team-text,
+.eleonora-card .team-text{
   width: auto;
 }
 
-.team-helped-1,
-.team-helped-2,
-.team-helped-3{
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-helped-item{
   margin: 20px;
+}
+
+.team-helped-item img{
+  margin-left: 20px;
 }
 
 }
@@ -844,11 +853,14 @@ a.close__btn {
     height: auto;
   }
 
+  .marina-card{
+    margin-bottom: 60px;
+  }
 
   .card-item{
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
 
   .team-name,
@@ -856,38 +868,23 @@ a.close__btn {
     text-align: center;
   }
 
-  .helen-card,
+  .team-name{
+    margin-top: 23px;
+  }
+
+  .marina-card,
   .svitlana-card,
-  .zinaida-card,
-  .anastasia-ni-card,
-  .natali-card,
-  .katya-card,
-  .elena-dr-card{
+  .elena-ba-card,
+  .eleonora-card{
     flex-wrap: wrap-reverse;
 }
 
-.team-1{
-  margin-bottom: 810px;
-}
-
-.team-2{
-  margin-bottom: 1330px;
-}
-
-.team-3{
-  margin-bottom: 1070px;
-}
-
-.team-4{
-  margin-bottom: 1570px;
-}
-
-.sofia-card{
-  padding: 186px 0 0;
-}
-
-.elena-ba-card{
+.regina-card{
   margin-top: 60px;
+}
+
+.team-1{
+  margin-bottom: 100px;
 }
 
 .team-img-left{
@@ -920,6 +917,10 @@ a.close__btn {
   right: -10%;
 }
 
+.team-helped{
+  margin: 80px 0 100px;
+}
+
 }
 
 
@@ -936,49 +937,15 @@ a.close__btn {
     margin-bottom: 30px;
   }
 
-  .team-3{
-    margin-bottom: 1130px;
-  }
 }
 
 @media screen and (max-width: 458px) {
-  .team-1{
-    margin-bottom: 810px;
-  }
   
-  .team-2{
-    margin-bottom: 1410px;
-  }
 }
 
 @media screen and (max-width: 410px) {
-  .team-1{
-    margin-bottom: 850px;
-  }
   
-  .team-2{
-    margin-bottom: 1410px;
-  }
-
-  .team-4{
-    margin-bottom: 1650px;
-  }
 }
 
 @media screen and (max-width: 347px) {
-  .team-1{
-    margin-bottom: 870px;
-  }
-  
-  .team-2{
-    margin-bottom: 1482px;
-  }
-
-  .team-3{
-    margin-bottom: 1230px;
-  }
-
-  .team-4{
-    margin-bottom: 1700px;
-  }
 }
