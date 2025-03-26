@@ -31,11 +31,11 @@ body {
   }
 
 .logo{
-  margin-top: 59px;
+  margin-top: 37px;
 }
 
 .header-menu{
-  margin-top: 41px;
+  margin-top: 64px;
 }
 
 .header-menu li{
@@ -560,15 +560,15 @@ h3{
 .team-join-black{
   font-family: 'Inter';
   font-weight: 500;
-  font-size: 40px;
+  font-size: 36px;
   color: #333333;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .team-join-red{
   font-family: 'Inter';
   font-weight: 500;
-  font-size: 40px;
+  font-size: 28px;
   color: #F46B5D;
   margin-bottom: 48px;
 }
@@ -735,10 +735,8 @@ a.close__btn {
 }
 
 .media__cursor{
-  font-size: 40px;
-  color: rgba(29, 135, 140, 1);
   cursor: pointer;
-  margin-top: 48px;
+  margin-top: 56px;
 }
 
 .media__cursor:hover{
@@ -838,7 +836,6 @@ a.close__btn {
     height: 760px; 
   }
 
-  
   .you-can-1,
   .you-can-2{
     margin-top: 30px;
@@ -921,6 +918,36 @@ a.close__btn {
   margin: 80px 0 100px;
 }
 
+.logo-img{
+  width: 200px;
+  height: auto;
+}
+
+.media__cursor{
+  margin-top: 50px;
+}
+
+h3{
+  font-size: 32px;
+  margin: 15px 0 35px;
+  line-height: 120%;
+}
+
+.team-join{
+  background: rgba(255, 241, 236, 1);
+  padding: 62px 0 66px;
+}
+
+.team-join-black{
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.team-join-red{
+  font-size: 24px;
+  margin-bottom: 38px;
+}
+
 }
 
 
@@ -937,13 +964,40 @@ a.close__btn {
     margin-bottom: 30px;
   }
 
+  .team-join-black{
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .team-join-red{
+    font-size: 22px;
+    margin-bottom: 28px;
+  }
+
 }
 
 @media screen and (max-width: 458px) {
+  .media__cursor{
+    margin-top: 48px;
+  }
   
 }
 
 @media screen and (max-width: 410px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  .regina-card img,
+  .eleonora-card img,
+  .marina-card img,
+  .svitlana-card img,
+  .elena-ba-card img,
+  .olga-card img,
+  .natalia-card img
+  {
+    width: 290px;
+  }
   
 }
 
