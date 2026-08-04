@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/fav.png" type="image/png">
     <title>about us</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    <!-- Google tag (gtag.js) -->
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYQX9T7G21"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-CYQX9T7G21');
     </script>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -28,17 +31,13 @@
                 </div>
                 <div class="col-8">
                     <nav id="myNav" class="header-menu media__menu">
-                        <a href="javascript:void(0)" class="close__btn d-lg-none d-md-flex" onclick="closeNav()">&times;</a>
+                        <a href="javascript:void(0)" class="close__btn d-lg-none d-md-flex"
+                            onclick="closeNav()">&times;</a>
                         <ul id="menu-items" class="d-lg-flex d-md-block flex justify-content-end align-item-center">
-                            <li class="mn">
-                                <a class="item active" href="index.html">home</a>
-                            </li>
-                            <li class="mn">
-                                <a class="item active" href="about-us.html">about us</a>
-                            </li>
-                            <li class="mn">
-                                <a class="item" target="_blank" href="https://github.com/sponsors/WeFriiends">donate</a>
-                            </li>
+                            <li class="mn"><a class="item active" href="index.html">home</a></li>
+                            <li class="mn"><a class="item active" href="about-us.html">about us</a></li>
+                            <li class="mn"><a class="item" target="_blank"
+                                    href="https://github.com/sponsors/WeFriiends">donate</a></li>
                         </ul>
                     </nav>
                     <div class="media__cursor d-lg-none d-flex justify-content-end" onclick="openNav()">
@@ -48,178 +47,140 @@
             </div>
         </div>
     </header>
+
     <main>
         <h1 class="team-title text-center">Meet our team</h1>
+
+        <!-- ==================== TEAM-1 ==================== -->
         <section class="team-1">
             <div class="team-1-content">
                 <div class="container">
-                <div class="olga-card card-item d-flex">
-                    <div>
-                        <img class="team-img-left" src="images/olga-z.png" alt="olga">
+                    <div class="team-member-card d-flex">
+                        <div>
+                            <img class="team-img-left" src="images/olga-z.png" alt="olga">
+                        </div>
+                        <div>
+                            <h2 class="team-name">Olga Zavizionnaya</h2>
+                            <p class="team-profession">Founder, CDO</p>
+                            <p class="team-text">Passionate designer with 11 years experience in projects of different
+                                size. Psychology adept. Absolutely sure that design should be suitable to how people's
+                                eyes work.</p>
+                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start"
+                                target="_blank"
+                                href="https://www.linkedin.com/in/olga-zavizionnaya-28875b4/?originalSubdomain=by">Linkedin</a>
+                        </div>
                     </div>
-                    <div>
-                        <h2 class="team-name">Olga Zavizionnaya</h2>
-                        <p class="team-profession">
-                            Founder, CDO
-                        </p>
-                        <p class="team-text">
-                            Passionate designer with 11 years experience in projects of different size.
-                             Psychology adept. Absolutely sure that design should be suitable to how people’s eyes work.
 
-                        </p>
-                        <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start" target="_blank" href="https://www.linkedin.com/in/olga-zavizionnaya-28875b4/?originalSubdomain=by">Linkedin</a>
+                    <div class="team-member-card team-member-card--even d-flex justify-content-end">
+                        <div></div>
+                        <div>
+                            <h2 class="team-name text-end">Elena Barysheva</h2>
+                            <p class="team-profession text-end">Tech Lead &amp; Frontend Developer</p>
+                            <p class="team-text text-end">I turn ideas into interfaces and help the team grow with clear
+                                communication, thoughtful feedback, and a practical approach to building products that
+                                help people connect and support each other. As the CDO's right hand, I bridge tech,
+                                vision, and people to keep us all aligned and motivated. I am committed to creating
+                                solutions that are not only functional but also genuinely useful.</p>
+                            <a class="team-link d-flex justify-content-end" target="_blank"
+                                href="https://www.linkedin.com/in/helenbaryshava/">Linkedin</a>
+                        </div>
+                        <div>
+                            <img class="team-img-right" src="images/elena-ba.png" alt="elena-ba">
+                        </div>
+                    </div>
+
+                    <div class="team-member-card d-flex">
+                        <div>
+                            <img class="team-img-left" src="images/zinaida.png" alt="zinaida">
+                        </div>
+                        <div>
+                            <h2 class="team-name">Zinaida Sarokina</h2>
+                            <p class="team-profession">Business Analyst</p>
+                            <p class="team-text">Business Analyst with web and mobile app development expertise,
+                                complemented by a strong legal background. Proficient in business analysis, requirements
+                                elicitation, negotiation, business process analysis, and process improvement.</p>
+                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start"
+                                target="_blank" href="https://www.linkedin.com/in/zinaida-sarokina/">Linkedin</a>
+                        </div>
                     </div>
                 </div>
-                <div class="marina-card d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end justify-content-xl-end"> 
-                    <div>
-                        <h2 class="team-name text-sm-center text-center text-sm-center text-md-end text-lg-end text-xl-end">Marina Kotelnikov</h2>
-                        <p class="team-profession text-sm-center text-center text-sm-center text-md-end text-lg-end text-xl-end">
-                            Front-end developer
-                        </p>
-                        <p class="team-text text-start text-sm-start text-md-end text-lg-end text-xl-end">
-                            Versatile Front-End Engineer with Full Stack expertise, driving high-performance,
-                             SEO-optimized web solutions. Passionate about turning ideas into polished digital
-                              experiences, with a proven track record of crafting responsive, dynamic websites and web applications.
-                        </p>
-                        <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-end justify-content-lg-end justify-content-xl-end" target="_blank" href="https://www.linkedin.com/in/marinamikitenko/">Linkedin</a>
-                    </div>
-                    <div>
-                        <img class="team-img-right" src="images/marina.png" alt="marina">
-                    </div>
-                </div>
-                <div class="olga-card card-item d-flex">
-                    <div>
-                        <img class="team-img-left" src="images/zinaida.png" alt="zinaida.png">
-                    </div>
-                    <div>
-                        <h2 class="team-name">Zinaida Sarokina</h2>
-                        <p class="team-profession">
-                            Business Analyst
-                        </p>
-                        <p class="team-text">
-                            Business Analyst with web and mobile app development expertise, complemented by a strong legal background.
-                             Proficient in business analysis, requirements elicitation, negotiation, business process analysis,
-                              and process improvement.
-                        </p>
-                        <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start" target="_blank" href="https://www.linkedin.com/in/zinaida-sarokina/">Linkedin</a>
-                    </div>
-                </div>
-                </div>  
             </div>
         </section>
+
+        <!-- ==================== TEAM-2 ==================== -->
         <section class="team-2">
             <div class="team-2-content">
                 <div class="container">
-                    <div class="svitlana-card d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end justify-content-xl-end"> 
+                    <div class="team-member-card team-member-card--even d-flex justify-content-end">
+                        <div></div>
                         <div>
-                            <h2 class="team-name text-sm-center text-center text-sm-center text-md-end text-lg-end text-xl-end">Svitlana Golubieva</h2>
-                            <p class="team-profession text-sm-center text-center text-sm-center text-md-end text-lg-end text-xl-end">Software engineer</p>
-                            <p class="team-text text-start text-sm-start text-md-end text-lg-end text-xl-end">
-                                A software engineer with experience in React, Angular and Ionic. I am passionate about
-                                 learning new things and achieving concrete results of my work.
-                            </p>
-                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-end justify-content-lg-end justify-content-xl-end" target="_blank" href="https://www.linkedin.com/in/svitlana-golubieva/">Linkedin</a>
+                            <h2 class="team-name text-end">Evgenii Golubev</h2>
+                            <p class="team-profession text-end">Backend Developer</p>
+                            <p class="team-text text-end">Highly motivated Backend Stack Developer with 5 years of
+                                experience in the tech industry, specializing in Node.js, TypeScript, and NestJS. Adept
+                                at designing robust backend architectures, secure authentication patterns, and managing
+                                multi-container Docker environments. Passionate about high code quality, precise Git
+                                workflows, and building scalable, real-time web applications from infrastructure to
+                                production.</p>
+                            <a class="team-link d-flex justify-content-end" target="_blank"
+                                href="https://www.linkedin.com/in/golubev-evgenii/">Linkedin</a>
                         </div>
                         <div>
-                            <img class="team-img-right" src="images/svitlana.png" alt="svitlana">
-                        </div>
-                    </div>
-                    <div class="kate-card card-item d-flex">
-                        <div>
-                            <img class="team-img-left" src="images/katya-sh.png" alt="katya">
-                        </div>
-                        <div>
-                            <h2 class="team-name">Kateryna Shvets</h2>
-                            <p class="team-profession">
-                                Front-end developer
-                            </p>
-                            <p class="team-text">
-                                I'm a Front-end developer. I am passionate about implementation of interface
-                                 and interactive parts of projects. Always open to interesting projects and coordinated teamwork.
-                            </p>
-                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start" target="_blank" href="https://www.linkedin.com/in/kateryna-shvets-2007/">Linkedin</a>
+                            <img class="team-img-right" src="images/evgenii.png" alt="evgenii">
                         </div>
                     </div>
-                </div>  
+
+                    <div class="team-member-card d-flex">
+                        <div>
+                            <img class="team-img-left" src="images/albert.png" alt="albert">
+                        </div>
+                        <div>
+                            <h2 class="team-name">Albert Ganiev</h2>
+                            <p class="team-profession">iOS developer</p>
+                            <p class="team-text">iOS developer with an engineering and analytical background. I have
+                                experience in process automation, mathematical modeling, and full-cycle mobile
+                                application development. I specialize in building scalable applications from scratch and
+                                designing maintainable architectures. I enjoy solving complex problems, exploring new
+                                technologies, and continuously learning. In my work, I value quality, attention to
+                                detail, teamwork, and the opportunity to create products that are genuinely convenient
+                                and useful for people.</p>
+                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start"
+                                target="_blank" href="https://www.linkedin.com/in/albert-ganiev-b877b6331/">Linkedin</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <!-- ==================== TEAM-3 ==================== -->
         <section class="team-3">
             <div class="team-3-content">
                 <div class="container">
-                    <div class="elena-ba-card d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end justify-content-xl-end"> 
+                    <div class="team-member-card team-member-card--even d-flex justify-content-end">
+                        <div></div>
                         <div>
-                            <h2 class="team-name text-sm-center text-center text-sm-center text-md-end text-lg-end text-xl-end">Elena Barysheva</h2>
-                            <p class="team-profession text-sm-center text-center text-sm-center text-md-end text-lg-end text-xl-end">Frontend Developer</p>
-                            <p class="team-text text-start text-sm-start text-md-end text-lg-end text-xl-end">
-                                A Frontend Developer dedicated to creating user-centered web applications that have
-                                a positive social impact, I also specialize in mobile development using React Native.
-                                 With a background in education and psychology, I am constantly learning and evolving my skills.
-                                  I have found fulfillment in mentoring aspiring programmers, helping them navigate their
-                                   journeys in tech.<br> My commitment lies in simplifying and enhancing lives through web and mobile
-                                    apps that make the world a better place.
-                            </p>
-                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-end justify-content-lg-end justify-content-xl-end" target="_blank" href="https://www.linkedin.com/in/helenbaryshava/">Linkedin</a>
+                            <h2 class="team-name text-end">Tatiana Kostromitskaya</h2>
+                            <p class="team-profession text-end">Frontend Developer</p>
+                            <p class="team-text text-end">I am a Frontend Developer with a background in PR and
+                                communications, which helps me see products from both the user's and the business's
+                                perspective. I am passionate about building clean, responsive interfaces and enjoy
+                                working in a team where ideas are shared openly. I value clear processes, thoughtful
+                                design, and creating digital experiences that are both beautiful and easy to use.</p>
+                            <a class="team-link d-flex justify-content-end" target="_blank"
+                                href="https://www.linkedin.com/in/tatiana-kostromitskaia-25bb0b291/">Linkedin</a>
                         </div>
                         <div>
-                            <img class="team-img-right elena-ba-img" src="images/elena-ba.png" alt="elena-ba">
-                        </div>
-                    </div>
-                    <div class="natalia-card card-item d-flex">
-                        <div>
-                            <img class="team-img-left" src="images/natalia.png" alt="natalia">
-                        </div>
-                        <div>
-                            <h2 class="team-name">Natalia Doudkina</h2>
-                            <p class="team-profession">
-                                Full stack Developer
-                            </p>
-                            <p class="team-text">
-                                Highly motivated Full Stack Developer with experience in building scalable 
-                                web applications using modern technologies.
-                            </p>
-                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start" target="_blank" href="https://www.linkedin.com/in/natalia-doudkina-5157678a/">Linkedin</a>
+                            <img class="team-img-right" src="images/tatiana.png" alt="tatiana">
                         </div>
                     </div>
-                    <div class="eleonora-card d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end justify-content-xl-end"> 
-                        <div>
-                            <h2 class="team-name text-sm-center text-center text-sm-center text-md-end text-lg-end text-xl-end">Eleonora Motorina</h2>
-                            <p class="team-profession text-sm-center text-center text-sm-center text-md-end text-lg-end text-xl-end">QA Engineer</p>
-                            <p class="team-text text-start text-sm-start text-md-end text-lg-end text-xl-end">
-                                I am passionate about both Manual and Automated Testing, with a strong drive to excel in the field of Quality Assurance.
-                                 I have practical experience working in agile environments (Scrum/Kanban) 
-                                  and possess a solid understanding of various testing techniques.
-                            </p>
-                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-end justify-content-lg-end justify-content-xl-end" target="_blank" href="https://www.linkedin.com/in/eleonora-motorina/">Linkedin</a>
-                        </div>
-                        <div>
-                            <img class="team-img-right" src="images/eleonora.png" alt="eleonora">
-                        </div>
-                    </div>
-                    <div class="regina-card card-item d-flex">
-                        <div>
-                            <img class="team-img-left" src="images/regina.png" alt="regina">
-                        </div>
-                        <div>
-                            <h2 class="team-name">Regina Iuldasheva</h2>
-                            <p class="team-profession">
-                                Frontend & Mobile Developer
-                            </p>
-                            <p class="team-text">
-                                A Frontend and Mobile Developer with expertise in React, Flutter, JavaScript, and TypeScript. 
-                                Focused on creating user-friendly and visually appealing applications while continuously 
-                                learning new technologies to enhance development processes.
-                            </p>
-                            <a class="team-link d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start" target="_blank" href="https://www.linkedin.com/in/regina-i-227920336/">Linkedin</a>
-                        </div>
-                    </div>
-                </div>  
+                </div>
             </div>
         </section>
+
+        <!-- ==================== PEOPLE WHO HELPED ==================== -->
         <section class="team-helped">
             <div class="container">
-                <h3 class="text-center">
-                    People, who helped us during our way
-                </h3>
+                <h3 class="text-center">People, who helped us during our way</h3>
                 <div class="grid-container">
                     <div class="team-helped-item">
                         <figure>
@@ -235,7 +196,7 @@
                             <img src="images/janna.png" alt="janna">
                             <figcaption>
                                 <p class="team-name-helped">Zhanna Bolotova</p>
-                                <p class="team-helped-occupacy">Project Manager</p>
+                                <p class="team-helped-occupacy">Product Manager</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -271,7 +232,7 @@
                             <img src="images/kateryna-ko.png" alt="kateryna-ko">
                             <figcaption>
                                 <p class="team-name-helped">Kateryna Kotenko</p>
-                                <p class="team-helped-occupacy">Web & app designer</p>
+                                <p class="team-helped-occupacy">Web &amp; app designer</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -293,59 +254,105 @@
                             </figcaption>
                         </figure>
                     </div>
+                    <div class="team-helped-item">
+                        <figure>
+                            <img src="images/katya-sh.png" alt="katya-sh">
+                            <figcaption>
+                                <p class="team-name-helped">Kateryna Shvets</p>
+                                <p class="team-helped-occupacy">Front-end developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="team-helped-item">
+                        <figure>
+                            <img src="images/marina.png" alt="marina">
+                            <figcaption>
+                                <p class="team-name-helped">Marina Kotelnikov</p>
+                                <p class="team-helped-occupacy">Front-end developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="team-helped-item">
+                        <figure>
+                            <img src="images/svitlana.png" alt="svitlana">
+                            <figcaption>
+                                <p class="team-name-helped">Svitlana Golubieva</p>
+                                <p class="team-helped-occupacy">Software engineer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="team-helped-item">
+                        <figure>
+                            <img src="images/eleonora.png" alt="eleonora">
+                            <figcaption>
+                                <p class="team-name-helped">Eleonora Motorina</p>
+                                <p class="team-helped-occupacy">QA Engineer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="team-helped-item">
+                        <figure>
+                            <img src="images/regina.png" alt="regina">
+                            <figcaption>
+                                <p class="team-name-helped">Regina Iuldasheva</p>
+                                <p class="team-helped-occupacy">Frontend Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="team-helped-item">
+                        <figure>
+                            <img src="images/natalia.png" alt="natalia">
+                            <figcaption>
+                                <p class="team-name-helped">Natalia Doudkina</p>
+                                <p class="team-helped-occupacy">Full stack Developer</p>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!-- ==================== JOIN ==================== -->
         <section class="team-join">
             <div class="container">
                 <p class="team-join-black text-center">Want to be a part of the team?</p>
-                <p class="team-join-red text-center">Send us a letter about yourself</p>
+                <p class="team-join-red text-center">Contact us on Telegram</p>
                 <div class="d-flex justify-content-center">
-                    <a class="button-donate" href="mailto:WeFriiends@gmail.com">send</a>
+                    <a class="button-donate"
+                        href="https://t.me/zavizionnaya?text=Hi%20I%27m%20interested%20in%20applying%20my%20skills%20to%20the%20WeFriiends%20project%21"
+                        target="_blank" rel="noopener noreferrer">send</a>
                 </div>
             </div>
         </section>
     </main>
-    
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 footer-logo">
                     <img src="images/white-logo.svg" alt="white-logo">
                 </div>
-                <nav class="col-12 col-lg-6 row ">
+                <nav class="col-12 col-lg-6 row">
                     <ul class="footer-1 col-lg-6">
-                        <li>
-                            <a href="index.html">home</a>
-                        </li>
-                        <li>
-                            <a href="about-us.html">about us</a>
-                        </li>
-                        <li>
-                            <a class="item" target="_blank" href="https://github.com/sponsors/WeFriiends">donate</a>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about-us.html">about us</a></li>
+                        <li><a class="item" target="_blank" href="https://github.com/sponsors/WeFriiends">donate</a>
                         </li>
                     </ul>
                     <ul class="footer-2 col-lg-6">
-                        <li>
-                            <a target="_blank" href="documents/privacy.html">privacy policy</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="documents/terms.html">terms of use</a>
-                        </li>
+                        <li><a target="_blank" href="documents/privacy.html">privacy policy</a></li>
+                        <li><a target="_blank" href="documents/terms.html">terms of use</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </footer>
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.height = "100%";
-        }
 
-        function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
-        }
+    <script>
+        function openNav() { document.getElementById("myNav").style.height = "100%"; }
+        function closeNav() { document.getElementById("myNav").style.height = "0%"; }
     </script>
-    <script type="text/javascript" src="js/index.js"></script> 
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
+
 </html>
