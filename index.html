@@ -50,30 +50,37 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container container-header">
             <div class="row">
                 <div class="col-4 logo">
                     <a href="index.html"><img class="logo-img" src="images/logo.svg" alt="logo"></a>
                 </div>
                 <div class="col-8">
                     <nav id="myNav" class="header-menu media__menu">
-                        <a href="javascript:void(0)" class="close__btn d-lg-none d-md-flex"
-                            onclick="closeNav()">&times;</a>
-                        <ul id="menu-items" class="d-lg-flex d-md-block flex justify-content-end align-item-center">
+                        <div class="media__menu-header d-lg-none">
+                            <a href="index.html"><img class="logo-img" src="images/logo.svg" alt="logo"></a>
+                            <button type="button" class="close__btn d-lg-none d-md-flex"
+                            onclick="closeNav()">&times;</button>
+                        </div>
+                     
+                        <ul id="menu-items" class="menu-list d-lg-flex d-md-block flex justify-content-end align-item-center">
                             <li class="mn">
-                                <a class="item active" href="index.html">home</a>
+                                <a class="item active" href="about-us.html">our team</a>
                             </li>
                             <li class="mn">
-                                <a class="item active" href="about-us.html">about us</a>
+                                <a class="item active" href="https://app.wefriiends.com/">sign in</a>
                             </li>
                             <li class="mn">
                                 <a class="item" target="_blank" href="https://github.com/sponsors/WeFriiends">donate</a>
                             </li>
+                             <li class="mn">
+                                <a class="item active" href="mailto:o.zavizionnaya@gmail.com">contact</a>
+                            </li>
                         </ul>
                     </nav>
-                    <div class="media__cursor d-lg-none d-flex justify-content-end" onclick="openNav()">
+                    <button type="button" class="media__cursor d-lg-none d-flex justify-content-end" onclick="openNav()">
                         <img src="images/br-menu.png" alt="menu">
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>

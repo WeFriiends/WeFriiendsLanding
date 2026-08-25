@@ -9,10 +9,9 @@ body {
 }
 
 .container {
-  width: 1172px;
-  max-width: 1172px;
+  max-width: 1116px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px 24px;
 }
 
 ul {
@@ -42,35 +41,41 @@ a {
   padding: 0;
 }
 
+.container-header {
+ margin-top: 45px;
+}
+
 .logo {
-  margin-top: 37px;
+  cursor: pointer;
 }
 
-.header-menu {
-  margin-top: 64px;
+.logo-img {
+  width: 155px;
+  height: 30px;
+  object-fit: contain;
 }
 
-.header-menu li {
-  margin-left: 57px;
+.menu-list li {
+  margin-left: 40px;
   list-style-type: none;
 }
 
-.header-menu a {
-  font-family: 'Open Sans';
+.menu-list a {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  color: #afb1b6;
+  font-size: 14px;
+  color: #333333;
   text-decoration: none;
   cursor: pointer;
 }
 
 .active {
-  color: #F46B5D;
+  color: #f46b5d;
 }
 
 .mn a:hover {
-  color: #F46B5D;
+  color: #f46b5d;
   transition: all 0.5s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -78,9 +83,8 @@ a {
   -o-transition: all 1s;
 }
 
-
 .main-banner {
-  background-color: #FFF1EC;
+  background-color: #fff1ec;
   margin: 127px 0;
   padding: 59px 0;
 }
@@ -95,7 +99,7 @@ a {
 }
 
 .main-banner p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -103,17 +107,16 @@ a {
 }
 
 .about {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   color: #333333;
 }
 
 h1 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 32px;
   margin: 58px 0 -10px 0;
-
 }
 
 .about p {
@@ -143,7 +146,7 @@ h1 {
 
 .you-can span {
   position: absolute;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
@@ -168,26 +171,45 @@ h1 {
 }
 
 .you-can-bg1 {
-  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 70.06%, #FFF1EC 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 241, 236, 0) 0%,
+    #fff1ec 70.06%,
+    #fff1ec 100%
+  );
   height: 410px;
   margin-top: -40px;
 }
 
 .you-can-bg2 {
-  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 70.06%, #FFF1EC 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 241, 236, 0) 0%,
+    #fff1ec 70.06%,
+    #fff1ec 100%
+  );
   transform: rotate(-180deg);
   height: 200px;
 }
 
-
 .landing-bg1 {
   padding: 7px 0 0 0;
   left: 0px;
-  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 69.4%, #FFF1EC 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 241, 236, 0) 0%,
+    #fff1ec 69.4%,
+    #fff1ec 100%
+  );
 }
 
 .landing-bg2 {
-  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 69.4%, #FFF1EC 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 241, 236, 0) 0%,
+    #fff1ec 69.4%,
+    #fff1ec 100%
+  );
   transform: rotate(-180deg);
   height: 200px;
 }
@@ -207,7 +229,7 @@ h1 {
 }
 
 figcaption {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
@@ -242,16 +264,15 @@ figcaption {
   margin: 100px 46px 0 46px;
 }
 
-
 .support {
-  background-color: #FFF1EC;
+  background-color: #fff1ec;
   padding-top: 85px;
   margin-top: 25px;
 }
 
 .support h3 {
   padding-bottom: 73px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -261,7 +282,7 @@ figcaption {
 
 .support-text {
   margin: 29px 0 64px 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -270,7 +291,7 @@ figcaption {
 }
 
 .support-title-text {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 29px;
@@ -279,11 +300,11 @@ figcaption {
 }
 
 h4 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  color: #F46B5D;
+  color: #f46b5d;
   padding-bottom: 37px;
 }
 
@@ -291,22 +312,20 @@ form {
   padding-bottom: 108px;
 }
 
-.form input,
-button {
+.form input {
   padding: 18px 24px;
   gap: 16px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
   border: none;
   outline: none;
   width: 348px;
 }
 
-button,
 .button-donate {
-  background: #FB8F67;
-  color: #FFFFFF;
-  font-family: 'Inter';
+  background: #fb8f67;
+  color: #ffffff;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -323,7 +342,7 @@ button,
 }
 
 .button-donate:hover {
-  color: #FFF1EC;
+  color: #fff1ec;
 }
 
 .support-card-1,
@@ -349,17 +368,17 @@ button,
 }
 
 footer {
-  background: #FB8F67;
+  background: #fb8f67;
   padding: 100px 0 84px 0;
 }
 
 footer a {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -382,7 +401,7 @@ footer a:hover {
 }
 
 .team-title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 40px;
   font-style: Medium;
   margin-top: 70px;
@@ -424,7 +443,7 @@ footer a:hover {
   justify-content: flex-end;
 }
 
-.team-member-card--even>div:first-child {
+.team-member-card--even > div:first-child {
   display: none;
 }
 
@@ -451,15 +470,15 @@ footer a:hover {
 }
 
 .team-name {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: Medium;
   font-size: 32px;
-  color: #F46B5D;
+  color: #f46b5d;
   margin-top: 0;
 }
 
 .team-profession {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
   font-size: 20px;
   color: #333333;
@@ -467,7 +486,7 @@ footer a:hover {
 }
 
 .team-link {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
   font-size: 20px;
   color: #333333;
@@ -481,7 +500,7 @@ footer a:hover {
 
 .team-text {
   margin-bottom: 24px !important;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
   color: #000000;
@@ -522,12 +541,11 @@ h3 {
   margin-bottom: 0;
 }
 
-
 .team-name-helped {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: Medium;
   font-size: 22px;
-  color: #F46B5D;
+  color: #f46b5d;
   font-weight: 500;
   margin: 12px 0 7px 0;
 }
@@ -559,7 +577,7 @@ h3 {
 }
 
 .team-join-black {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
   font-size: 36px;
   color: #333333;
@@ -567,10 +585,10 @@ h3 {
 }
 
 .team-join-red {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
   font-size: 28px;
-  color: #F46B5D;
+  color: #f46b5d;
   margin-bottom: 48px;
 }
 
@@ -578,14 +596,14 @@ h3 {
   font-size: 40px;
   display: flex;
   justify-content: center;
-  color: #F46B5D;
+  color: #f46b5d;
 }
 
 .form-alert-text {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  color: #F46B5D;
+  color: #f46b5d;
   margin-bottom: 120px;
 }
 
@@ -629,9 +647,9 @@ h3 {
 }
 
 .buttons a {
-  color: #FFF1EC;
+  color: #fff1ec;
   text-decoration: none;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -639,11 +657,10 @@ h3 {
 
 .buttons a,
 .share-card button {
-  background-color: #FB8F67;
+  background-color: #fb8f67;
   padding: 6px;
   border-radius: 10px;
 }
-
 
 .buttons a:hover,
 .share-card button:hover {
@@ -667,60 +684,62 @@ h3 {
 }
 
 h3 .button-donate {
-  background-color: #F46B5D;
+  background-color: #f46b5d;
 }
 
 @media screen and (max-width: 1200px) {
-  .container {
-    width: 90%;
-  }
-
   .form div button {
     margin-top: 30px;
   }
 }
 
 @media screen and (max-width: 991px) {
-
+  .container-header {
+    margin-top: 25px;
+  }
   .media__menu {
     height: 0%;
     width: 100%;
+    padding: 0px 24px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.92);
+    background: white;
     overflow-y: hidden;
     transition: 0.5s;
   }
+  .media__menu-header {
+    margin-top: 26px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-  a.close__btn {
-    padding: 8px;
-    text-decoration: none;
+  .close__btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 20px;
-    color: rgba(29, 135, 140, 1);
-    display: block;
+    color: #464555;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
     transition: 0.3s;
   }
 
-  #menu-items {
-    margin-top: 120px;
-  }
-
   .header__menu {
-    padding-top: 0;
+    padding: 28px 16px;
     position: relative;
     top: 15%;
     width: 100%;
     text-align: center;
-  }
-
-  .header-menu {
-    margin-top: 0;
-  }
-
-  .header-menu li {
-    margin: 46px 0 0 70px;
   }
 
   .media__menu a:hover,
@@ -729,24 +748,35 @@ h3 .button-donate {
   }
 
   .media__menu .close__btn {
-    position: absolute;
-    top: 5px;
-    right: 45px;
     font-size: 40px;
   }
 
-  .mn a {
-    color: rgba(29, 135, 140, 1);
+  .menu-list li {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
+    list-style-type: none;
+  }
+
+  .menu-list a {
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
   }
 
   .media__cursor {
-    cursor: pointer;
-    margin-top: 56px;
-  }
-
-  .media__cursor:hover {
-    color: rgba(29, 135, 140, 1);
-
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #464555;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
   }
 
   .you-can-bg1 {
@@ -802,7 +832,6 @@ h3 .button-donate {
 }
 
 @media screen and (max-width: 767px) {
-
   .main-banner-img {
     margin-left: 0;
   }
@@ -850,12 +879,12 @@ h3 .button-donate {
     justify-content: center;
   }
 
-  .team-member-card>div:first-child,
-  .team-member-card--even>div:last-child {
+  .team-member-card > div:first-child,
+  .team-member-card--even > div:last-child {
     order: -1 !important;
   }
 
-  .team-member-card--even>div:first-child {
+  .team-member-card--even > div:first-child {
     display: none;
   }
 
@@ -926,15 +955,6 @@ h3 .button-donate {
     margin: 80px 0 100px;
   }
 
-  .logo-img {
-    width: 200px;
-    height: auto;
-  }
-
-  .media__cursor {
-    margin-top: 50px;
-  }
-
   h3 {
     font-size: 32px;
     margin: 15px 0 35px;
@@ -962,7 +982,6 @@ h3 .button-donate {
 }
 
 @media screen and (max-width: 575px) {
-
   .form input,
   button {
     width: 300px;
@@ -987,11 +1006,7 @@ h3 .button-donate {
   }
 }
 
-@media screen and (max-width: 458px) {
-  .media__cursor {
-    margin-top: 48px;
-  }
-}
+
 
 @media screen and (max-width: 410px) {
   body {
