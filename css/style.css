@@ -12,6 +12,9 @@ body {
   max-width: 1116px;
   margin: 0 auto;
   padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-button {
@@ -150,6 +153,7 @@ a {
 
 .you-can__list {
   margin-top: 45px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -215,6 +219,102 @@ a {
 }
 
 
+/* how-use block */
+
+.how-use__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-use__list {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px
+}
+
+.how-use__item {
+  max-width: 248px;
+  height: 245px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  background: #FFF1EC;
+  border-radius: 10px;
+}
+
+.how-use__item--inactive {
+  background: none;
+  border: 2px dashed #8C8C8C;
+}
+
+.how-use__item-title {
+  margin-bottom: 30px;
+}
+
+.how-use__item--inactive .how-use__item-title {
+  color: #8C8C8C;
+}
+.how-use__item--inactive .item-subtitle {
+  color: #8C8C8C;
+}
+
+
+.how-use__item .item-subtitle {
+  text-align: left;
+}
+
+.how-use__description {
+  margin-top: 15px;
+  margin-right: 100px;
+  align-self: flex-end;
+  color: #8C8C8C;
+}
+
+/* ready to start block */
+
+.ready-start {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.ready-start__block {
+  width: 100%;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.ready-start__text-1 {
+  margin-bottom: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: start;
+  color: #333333;
+}
+
+.ready-start__text-2 {
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-style: semibold;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: start;
+  color: #FB8F67;
+}
+
+
 .support {
   background-color: #fff1ec;
   padding-top: 85px;
@@ -250,14 +350,6 @@ a {
   color: #333333;
 }
 
-h4 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  color: #f46b5d;
-  padding-bottom: 37px;
-}
 
 form {
   padding-bottom: 108px;
@@ -987,6 +1079,49 @@ h3 .button-donate {
     max-width: 200px;
 }
 
+/* how-use block */
+
+.how-use__list {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px
+}
+
+.how-use__description {
+  margin-top: 15px;
+  margin-right: 0px;
+  align-self: auto;
+}
+
+/* ready to start block 575 */
+
+.ready-start__block {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.ready-start__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ready-start__text-1 {
+  font-size: 18px;
+}
+.ready-start__text-2 {
+  font-size: 18px;
+}
 
   .form input,
   button {
