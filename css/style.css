@@ -14,12 +14,46 @@ body {
   padding: 0px 24px;
 }
 
+.main-button {
+  width: 100%;
+  max-width: 230px;
+  padding: 12px 0px;
+  border-radius: 60px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(-90deg, #F46B5D 0%, #FC9D7A 100%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.section-title {
+  font-family: "Otomanopee One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #F46B5D;
+}
+
+.subtitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #333333;
+}
+
 ul {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 h1,
@@ -84,91 +118,59 @@ a {
 }
 
 .main-banner {
-  background-color: #fff1ec;
-  margin: 127px 0;
-  padding: 59px 0;
+  padding-top: 80px;
+  background: linear-gradient(0deg, #FFF1EC 20%, #FFFFFF 100%);
 }
 
-.main-banner-text {
-  margin: 59px 0 0 0;
+.main-banner-block {
+  display: flex;
+  justify-content: space-between;
+} 
+
+
+.main-banner-text .description-text {
+  max-width: 380px;
+  margin-bottom: 40px;
+
 }
 
-.main-banner-img {
-  margin-top: -104px;
-  margin-left: 62px;
+.main-banner_button {
+  margin-bottom: 60px;
 }
 
-.main-banner p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  color: #333333;
+ .main-banner-img img {
+    width: 100%;
+  }
+/* .you-can block */
+
+.you-can {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: linear-gradient(0deg, #FFFFFF 0%, #FFF1EC 50%, #FFFFFF 100%);
 }
 
-.about {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  color: #333333;
+.you-can__list {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   gap: 20px;
 }
 
-h1 {
-  font-family: "Inter";
-  font-size: 32px;
-  margin: 58px 0 -10px 0;
-}
-
-.about p {
-  font-size: 40px;
-  margin-bottom: 32px;
-}
-
-.you-can h2 {
-  padding: 166px 0 70px 0;
-  font-size: 40px;
-}
-
-.you-can-2 {
+.you-can__item {
   position: relative;
-  width: 300px;
+  flex-grow: 1;
 }
 
-.you-can-3 {
-  position: relative;
-  width: 340px;
-}
-
-.you-can-1 {
-  position: relative;
-  width: 260px;
-}
-
-.you-can span {
+.you-can__item span {
+  display: block;
   position: absolute;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
-  color: #333333;
+  top: 50%;
+  left: 40px;
+  transform: translate(0%, -50%);
 }
 
-.you-can-1 span {
-  left: 45px;
-  top: 20px;
-  line-height: 32px;
-}
 
-.you-can-2 span {
-  left: 45px;
-  top: 35px;
-}
-
-.you-can-3 span {
-  left: 33px;
-  top: 11px;
-  line-height: 34px;
-}
 
 .you-can-bg1 {
   background: linear-gradient(
@@ -687,12 +689,6 @@ h3 .button-donate {
   background-color: #f46b5d;
 }
 
-@media screen and (max-width: 1200px) {
-  .form div button {
-    margin-top: 30px;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .container-header {
     margin-top: 25px;
@@ -779,17 +775,7 @@ h3 .button-donate {
     outline: none;
   }
 
-  .you-can-bg1 {
-    height: 560px;
-  }
 
-  .you-can-bg2 {
-    height: 100px;
-  }
-
-  .you-can-3 {
-    margin-top: 30px;
-  }
 
   .team-title {
     margin-bottom: 70px;
@@ -832,26 +818,53 @@ h3 .button-donate {
 }
 
 @media screen and (max-width: 767px) {
-  .main-banner-img {
-    margin-left: 0;
+
+  .main-banner {
+    padding-top: 50px;
+    background: linear-gradient(0deg, #FFF1EC 60%, #FFFFFF 100%);
+  }
+  
+  .main-banner-block {
+    flex-wrap: wrap;
+  }
+
+  .description-text {
+    margin-top: 25px;
+    margin-bottom: 40px;
   }
 
   .main-banner-text p {
-    text-align: center;
+    font-size: 30px;
   }
 
-  .main-banner-block {
-    flex-wrap: wrap-reverse;
+  .main-banner-img {
+    width: 100%;
+    display: flex;
+    justify-content: center
+
   }
 
-  .you-can-bg1 {
-    height: 760px;
+  .main-banner-img img {
+    width: 100%;
   }
 
-  .you-can-1,
-  .you-can-2 {
-    margin-top: 30px;
+    /* .you-can block */
+
+  .you-can__list {
+    flex-direction: column;
+    gap: 40px;
   }
+
+
+  .you-can__item span {
+   max-width: 300px;  
+  }
+
+ .you-can__item:nth-child(2) {
+   width: 300px;
+   align-self: flex-end;
+  }
+
 
   footer {
     padding-left: 30px;
