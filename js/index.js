@@ -49,6 +49,21 @@ function creatingUrl(apiUrl, apiKey, name, email, listIds) {
 
 console.log('debug: JS works');
 
+document.addEventListener('DOMContentLoaded', () => {
+  console.log("-----------------------");
+  const nav = document.getElementById('myNav');
+  const openBtn = document.getElementById('openMenuBtn');
+  const closeBtn = document.getElementById('closeMenuBtn');
+
+  openBtn.addEventListener('click', () => {
+    nav.style.height = '100%';
+  });
+
+  closeBtn.addEventListener('click', () => {
+    nav.style.height = '0%';
+  });
+});
+
 const fullCheck = document.querySelector('#fullCheck');
 
 const apiBaseUrl = 'https://api.selzy.com/en/api/subscribe'; // API endpoint https://selzy.com/en/support/api/contacts/subscribe/
@@ -151,3 +166,4 @@ function shareOnViber() {
   var url = encodeURIComponent(text + " " + window.location.href);
   window.location.href = "viber://forward?text=" + url;
 }
+
