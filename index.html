@@ -196,111 +196,34 @@ With our unique features, you can easily build a community of like-minded indivi
                     <button type="button" class="main-button">sign up</button>
                 </div>
               </div>
-
-
-            </div>
-
-        </section>
-
-        <!-- for early birds, to be upgraded later -->
-        <!-- <section class="support">
-            <div class="container">
-                <div>
-                <h3 class="text-center">Be the first to know about the launch!</h3>
-                <p class="support-title-text text-center">
-                    At the moment the application is not ready yet. We are in a hurry to develop it
-                     as soon as possible. While we are designing, programming and doing all the stuff 
-                </p>
-                <p class="support-text">You can</p>
-                <h4 id="form-title" class="text-center">Subscribe to e-mail alert</h4>
-                <form id="form">
-                    <div class="form d-flex justify-content-around flex-wrap align-item-center">
-                        <div class="mb-3"><input type="text" id="name" placeholder="your name"></div>
-                        <div><input type="email" id="email" placeholder="e-mail"></div>
-                        <div><button type="submit" id="btn">send</button></div>
-                    </div>
-                </form>
-                <div id="fullCheck"></div>
-                <div class="d-flex felx-wrap justify-content-around align-items-start">
-                    <div class="support-card-1 d-none">
-                        <h4 class="text-left">Subcribe to our Instagram</h4>
-                        <button type="submit">subscribe</button>
-                        <img src="images/insta.png" alt="insta">
-                    </div>
-                    <div class="support-card-2 d-none">
-                        <h4 class="text-left">Support development with a donation</h4>
-                        <a class="button-donate" target="_blank" href="https://donate.stripe.com/3csdTx42f6mJ2QMaEF">donate</a>
-                        <img src="images/donate.png" alt="donate">
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <section class="share">
-            <div class="container">
-                <div class="share-card_wrapper">
-                    <div class="share-card">
-                        <h4 class="text-left">Subcribe to our Instagram</h4>
-                        <a class="button-donate" target="_blank"
-                            href="https://www.instagram.com/wef.riiends?igshid=OGQ5ZDc2ODk2ZA==">check the posts</a>
-                    </div>
-                    <div class="share-card scimg">
-                        <img src="images/phones.jpg">
-                    </div>
-                    <div class="share-card">
-                        <h4 class="text-left">Share info about a project</h4>
-                        <a class="button-donate" id="share" href="">share in social media</a>
-                        <div class="buttons" id="buttons">
-                            <button
-                                onClick='window.open("https://www.linkedin.com/sharing/share-offsite/?url=https://wefriiends.com/","sharer","toolbar=0,status=0,width=620,height=390");'
-                                title="Share with Linkedin">
-                                <img src="images/linkedin.png" alt="Linkedin">LinkedIn
-                            </button>
-
-                            <button id="viber_share" onClick="shareOnViber()" title="Share with Viber">
-                                <img src="images/viber.png" alt="Viber">Viber
-                            </button>
-
-                            <!-- Facebook -->
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://wefriiends.com/"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="images/fb.png" alt="Facebook">Facebook
-                            </a>
-
-                            <!-- Twitter -->
-                            <a href="https://twitter.com/intent/tweet?url=https://wefriiends.com/&text=Look at this"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="images/tw.png" alt="Twitter">Twitter
-                            </a>
-
-                            <!-- VKontakte -->
-                            <a href="http://vk.com/share.php?url=https://wefriiends.com/" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="images/vk.png" alt="VK">VK
-                            </a>
-
-                            <!-- WhatsApp -->
-                            <a href="whatsapp://send?text=Look at this+https://wefriiends.com/" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="images/whatsapp2.png" alt="WhatsApp">WhatsApp
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
-        <section class="donate support">
+
+        <section class="donate">
             <div class="container">
-                <h3 class="text-center">One more important thing that you can do - support development with a donation
-                </h3>
-                <p class="support-title-text text-center">We need financial support to deploy servers and provide the
-                    stability of our platform.</p>
-                <h3 class="text-center" style="margin-top: 30px;">
-                    <a class="button-donate" href="https://github.com/sponsors/WeFriiends">donate</a>
-                </h3>
+                <h5 class="donate__title">
+                    There is important thing that you can do: support development with a donation
+                </h5>
+                <p class="donate__subtitle">We need financial support to deploy servers and provide the stability of the site.</p>
+                <button type="button" class="main-button"><a href="https://github.com/sponsors/WeFriiends">donate</a></button>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="container footer__container">
+            <img class="footer-logo" src="images/white-logo.svg" alt="white-logo">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="about-us.html">about us</a></li>
+                    <li class="footer__item"><a target="_blank" href="documents/privacy.html">privacy policy</a></li>
+                    <li class="footer__item"><a class="" href="mailto:o.zavizionnaya@gmail.com">contact</a>
+                    <li class="footer__item"><a target="_blank" href="documents/terms.html">terms of use</a>
+                </ul>
+            </nav>
+
+        </div>
+    </footer>
+    <!-- <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 footer-logo">
@@ -329,7 +252,7 @@ With our unique features, you can easily build a community of like-minded indivi
                 </nav>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <script>
         function openNav() {
             document.getElementById("myNav").style.height = "100%";
