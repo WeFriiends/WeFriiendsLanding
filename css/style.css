@@ -325,9 +325,7 @@ form {
 
 
 .team-title {
-  font-family: "Inter";
   font-size: 40px;
-  font-style: Medium;
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -427,7 +425,7 @@ form {
   font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
-  color: #000000;
+  color: #333333;
 }
 
 .team-img-left,
@@ -478,6 +476,7 @@ h3 {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
+  color: #333333;
 }
 
 .grid-container {
@@ -495,25 +494,30 @@ h3 {
   margin-left: 40px;
 }
 
+/* team-join block */
+
 .team-join {
   background: rgba(255, 241, 236, 1);
-  padding: 98px 0 96px 0;
+  padding: 70px 0 74px 0;
 }
 
-.team-join-black {
+.team-join__title {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 16px;
+    color: #333333;
+    text-align: center;
+  }
+
+.team-join__subtitle {
   font-family: "Inter";
   font-weight: 500;
-  font-size: 36px;
+  font-size: 20px;
   color: #333333;
-  margin-bottom: 10px;
-}
+  margin-bottom: 40px;
+  text-align: center;
 
-.team-join-red {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 28px;
-  color: #f46b5d;
-  margin-bottom: 48px;
 }
 
 .form-alert-title {
@@ -808,20 +812,9 @@ h3 .button-donate {
     line-height: 120%;
   }
 
-  .team-join {
-    background: rgba(255, 241, 236, 1);
-    padding: 62px 0 66px;
-  }
+  /* team-join block */
 
-  .team-join-black {
-    font-size: 30px;
-    margin-bottom: 16px;
-  }
-
-  .team-join-red {
-    font-size: 24px;
-    margin-bottom: 38px;
-  }
+  
 
   .team-member-card .team-text {
     text-align: justify !important;
@@ -929,7 +922,20 @@ h3 .button-donate {
     font-size: 18px;
   }
 
+  /* team-join block */
 
+  .team-join {
+  padding: 05px 0 60px 0;
+  }
+
+.team-join__title {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+.team-join__subtitle {
+  font-size: 18px;
+}
 
   .form input,
   button {
@@ -944,15 +950,6 @@ h3 .button-donate {
     margin-bottom: 30px;
   }
 
-  .team-join-black {
-    font-size: 26px;
-    margin-bottom: 10px;
-  }
-
-  .team-join-red {
-    font-size: 22px;
-    margin-bottom: 28px;
-  }
 }
 
 
