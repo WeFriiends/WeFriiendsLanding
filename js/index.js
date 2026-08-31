@@ -50,7 +50,6 @@ function creatingUrl(apiUrl, apiKey, name, email, listIds) {
 console.log('debug: JS works');
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log("-----------------------");
   const nav = document.getElementById('myNav');
   const openBtn = document.getElementById('openMenuBtn');
   const closeBtn = document.getElementById('closeMenuBtn');

@@ -60,6 +60,7 @@ a {
   max-width: 230px;
   padding: 12px 0px;
   border-radius: 60px;
+  display: block;
   border: none;
   outline: none;
   text-decoration: none;
@@ -69,6 +70,11 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main-button:hover {
   color: #ffffff;
 }
 
@@ -138,10 +144,6 @@ a {
   color: #333333;
   text-decoration: none;
   cursor: pointer;
-}
-
-.active {
-  color: #f46b5d;
 }
 
 .mn a:hover {
