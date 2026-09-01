@@ -123,6 +123,7 @@ a {
 
 .logo {
   cursor: pointer;
+  padding-left: 0px;
 }
 
 .logo-img {
@@ -187,6 +188,42 @@ a {
   align-items: center;
   flex-wrap: wrap;
   gap: 8px 50px;
+}
+
+/* breadcrumb block */
+
+.breadcrumb {
+  margin-top: 30px;
+}
+
+.breadcrumb__container {
+  align-items: flex-start;
+}
+
+.breadcrumb__list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.breadcrumb__item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #313131;
+}
+
+.breadcrumb__item a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #313131;
+}
+
+.breadcrumb__item-active {
+  color: #F46B5D;
 }
 
 /* footer */
