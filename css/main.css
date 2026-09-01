@@ -10,6 +10,10 @@
   justify-content: space-between;
 }
 
+.main-banner-text {
+  margin-bottom: 64px;
+}
+
 .main-banner-text .description-text {
   max-width: 380px;
   margin-bottom: 40px;
@@ -17,6 +21,10 @@
 
 .main-banner_button {
   margin-bottom: 60px;
+}
+
+.main-banner-img {
+  align-self: flex-end;
 }
 
 .main-banner-img img {
