@@ -1,0 +1,373 @@
+/* main-banner block */
+
+.main-banner {
+  padding-top: 80px;
+  background: linear-gradient(0deg, #fff1ec 20%, #ffffff 100%);
+}
+
+.main-banner-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-banner-text {
+  margin-bottom: 64px;
+}
+
+.main-banner-text .description-text {
+  max-width: 380px;
+  margin-bottom: 40px;
+}
+
+.main-banner_button {
+  margin-bottom: 60px;
+}
+
+.main-banner-img {
+  align-self: flex-end;
+}
+
+.main-banner-img img {
+  width: 100%;
+}
+
+/* .you-can block */
+
+.you-can {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: linear-gradient(0deg, #ffffff 0%, #fff1ec 50%, #ffffff 100%);
+}
+
+.you-can__list {
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.you-can__item {
+  position: relative;
+  flex-grow: 1;
+}
+
+.you-can__item span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translate(0%, -50%);
+}
+
+/* .our best block */
+
+.our-best {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: linear-gradient(0deg, #fff1ec00 0%, #fff1ec 50%, #fff1ec 100%);
+}
+
+.our-best__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-best__title {
+  width: 490px;
+  text-align: center;
+}
+
+.our-best__list {
+  width: 100%;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.our-best__item {
+  width: calc((100% - 40px) / 3);
+}
+
+.our-best__item img {
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+}
+.our-best__item figcaption {
+  text-align: center;
+}
+
+/* how-use block */
+
+.how-use__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-use__list {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.how-use__item {
+  max-width: 248px;
+  height: 245px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  background: #fff1ec;
+  border-radius: 10px;
+}
+
+.how-use__item--inactive {
+  background: none;
+  border: 2px dashed #8c8c8c;
+}
+
+.how-use__item-title {
+  margin-bottom: 30px;
+}
+
+.how-use__item--inactive .how-use__item-title {
+  color: #8c8c8c;
+}
+.how-use__item--inactive .item-subtitle {
+  color: #8c8c8c;
+}
+
+.how-use__item .item-subtitle {
+  text-align: left;
+}
+
+.how-use__description {
+  margin-top: 15px;
+  margin-right: 100px;
+  align-self: flex-end;
+  color: #8c8c8c;
+}
+
+/* ready to start block */
+
+.ready-start {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.ready-start__block {
+  width: 100%;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.ready-start__text-1 {
+  margin-bottom: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: start;
+  color: #333333;
+}
+
+.ready-start__text-2 {
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-style: semibold;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: start;
+  color: #fb8f67;
+}
+
+/* donate block */
+
+.donate {
+  background: #fff1ec;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.donate__title {
+  max-width: 700px;
+  margin-bottom: 50px;
+  font-family: "Inter";
+  font-style: medium;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  color: #333333;
+}
+
+.donate__subtitle {
+  max-width: 700px;
+  margin-bottom: 50px;
+  font-family: "Inter";
+  font-style: medium;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+/* media --------------- */
+
+@media screen and (max-width: 767px) {
+  .main-banner {
+    padding-top: 50px;
+    background: linear-gradient(0deg, #fff1ec 60%, #ffffff 100%);
+  }
+
+  .main-banner-block {
+    flex-wrap: wrap;
+  }
+
+  .description-text {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+
+  .main-banner-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-banner-img img {
+    width: 100%;
+  }
+
+  /* .you-can block */
+
+  .you-can__list {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .you-can__item span {
+    max-width: 300px;
+  }
+
+  .you-can__item:nth-child(2) {
+    width: 300px;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* .our best block */
+
+  .our-best__list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .our-best__item {
+    width: 80%;
+  }
+
+  .our-best__item:nth-child(odd) {
+    align-self: flex-start;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .our-best__item:nth-child(even) {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .our-best__item img {
+    height: 150px;
+  }
+
+  .our-best__card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-best__item figcaption {
+    text-align: center;
+    max-width: 200px;
+  }
+
+  /* how-use block */
+
+  .how-use__list {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .how-use__description {
+    margin-top: 15px;
+    margin-right: 0px;
+    align-self: auto;
+  }
+
+  /* ready to start block 575 */
+
+  .ready-start__block {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .ready-start__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ready-start__text-1 {
+    font-size: 18px;
+  }
+  .ready-start__text-2 {
+    font-size: 18px;
+  }
+
+  /* donate block */
+
+  .donate {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+
+  .donate__title {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  .donate__subtitle {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+}

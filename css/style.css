@@ -1,257 +1,12 @@
-body {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative;
-  min-width: 320px;
-  margin: auto !important;
-  padding: 0;
-  overflow-x: hidden;
-}
-
-.container {
-  width: 1172px;
-  max-width: 1172px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-ul {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-  padding: 0;
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-header,
-section,
-button,
-span,
-p,
-a {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.logo {
-  margin-top: 37px;
-}
-
-.header-menu {
-  margin-top: 64px;
-}
-
-.header-menu li {
-  margin-left: 57px;
-  list-style-type: none;
-}
-
-.header-menu a {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  color: #afb1b6;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.active {
-  color: #F46B5D;
-}
-
-.mn a:hover {
-  color: #F46B5D;
-  transition: all 0.5s;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-}
-
-
-.main-banner {
-  background-color: #FFF1EC;
-  margin: 127px 0;
-  padding: 59px 0;
-}
-
-.main-banner-text {
-  margin: 59px 0 0 0;
-}
-
-.main-banner-img {
-  margin-top: -104px;
-  margin-left: 62px;
-}
-
-.main-banner p {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  color: #333333;
-}
-
-.about {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  color: #333333;
-}
-
-h1 {
-  font-family: 'Inter';
-  font-size: 32px;
-  margin: 58px 0 -10px 0;
-
-}
-
-.about p {
-  font-size: 40px;
-  margin-bottom: 32px;
-}
-
-.you-can h2 {
-  padding: 166px 0 70px 0;
-  font-size: 40px;
-}
-
-.you-can-2 {
-  position: relative;
-  width: 300px;
-}
-
-.you-can-3 {
-  position: relative;
-  width: 340px;
-}
-
-.you-can-1 {
-  position: relative;
-  width: 260px;
-}
-
-.you-can span {
-  position: absolute;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
-  color: #333333;
-}
-
-.you-can-1 span {
-  left: 45px;
-  top: 20px;
-  line-height: 32px;
-}
-
-.you-can-2 span {
-  left: 45px;
-  top: 35px;
-}
-
-.you-can-3 span {
-  left: 33px;
-  top: 11px;
-  line-height: 34px;
-}
-
-.you-can-bg1 {
-  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 70.06%, #FFF1EC 100%);
-  height: 410px;
-  margin-top: -40px;
-}
-
-.you-can-bg2 {
-  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 70.06%, #FFF1EC 100%);
-  transform: rotate(-180deg);
-  height: 200px;
-}
-
-
-.landing-bg1 {
-  padding: 7px 0 0 0;
-  left: 0px;
-  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 69.4%, #FFF1EC 100%);
-}
-
-.landing-bg2 {
-  background: linear-gradient(180deg, rgba(255, 241, 236, 0) 0%, #FFF1EC 69.4%, #FFF1EC 100%);
-  transform: rotate(-180deg);
-  height: 200px;
-}
-
-.landing {
-  margin-top: 70px;
-}
-
-.landing h2 {
-  margin-bottom: 100px;
-  font-size: 40px;
-}
-
-.landing-card-item {
-  width: 265px;
-  height: 354px;
-}
-
-figcaption {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
-  text-align: center;
-  color: #333333;
-}
-
-.landing-card-1 figcaption,
-.landing-card-2 figcaption {
-  padding-top: 56px;
-}
-
-.landing-card-3 figcaption,
-.landing-card-4 figcaption {
-  padding-top: 18px;
-}
-
-.landing-card-5 figcaption {
-  padding-top: 28px;
-}
-
-.landing-card-1,
-.landing-card-2,
-.landing-card-3,
-.landing-card-4 {
-  width: 270px;
-  margin: 36px 46px;
-}
-
-.landing-card-5 {
-  width: 270px;
-  margin: 100px 46px 0 46px;
-}
-
-
 .support {
-  background-color: #FFF1EC;
+  background-color: #fff1ec;
   padding-top: 85px;
   margin-top: 25px;
 }
 
 .support h3 {
   padding-bottom: 73px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -261,7 +16,7 @@ figcaption {
 
 .support-text {
   margin: 29px 0 64px 0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -270,7 +25,7 @@ figcaption {
 }
 
 .support-title-text {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 29px;
@@ -278,35 +33,25 @@ figcaption {
   color: #333333;
 }
 
-h4 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  color: #F46B5D;
-  padding-bottom: 37px;
-}
 
 form {
   padding-bottom: 108px;
 }
 
-.form input,
-button {
+.form input {
   padding: 18px 24px;
   gap: 16px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
   border: none;
   outline: none;
   width: 348px;
 }
 
-button,
 .button-donate {
-  background: #FB8F67;
-  color: #FFFFFF;
-  font-family: 'Inter';
+  background: #fb8f67;
+  color: #ffffff;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -323,7 +68,7 @@ button,
 }
 
 .button-donate:hover {
-  color: #FFF1EC;
+  color: #fff1ec;
 }
 
 .support-card-1,
@@ -348,43 +93,10 @@ button,
   margin-top: 44px;
 }
 
-footer {
-  background: #FB8F67;
-  padding: 100px 0 84px 0;
-}
 
-footer a {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  text-align: center;
-  color: #FFFFFF;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-footer li {
-  list-style-type: none;
-}
-
-footer a:hover {
-  color: #ffffffc7;
-}
-
-.footer-logo {
-  margin-bottom: 32px;
-  padding: 0;
-}
-
-.footer-1 {
-  padding-bottom: 32px;
-}
 
 .team-title {
-  font-family: 'Inter';
   font-size: 40px;
-  font-style: Medium;
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -424,7 +136,7 @@ footer a:hover {
   justify-content: flex-end;
 }
 
-.team-member-card--even>div:first-child {
+.team-member-card--even > div:first-child {
   display: none;
 }
 
@@ -451,15 +163,15 @@ footer a:hover {
 }
 
 .team-name {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: Medium;
   font-size: 32px;
-  color: #F46B5D;
+  color: #f46b5d;
   margin-top: 0;
 }
 
 .team-profession {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
   font-size: 20px;
   color: #333333;
@@ -467,7 +179,7 @@ footer a:hover {
 }
 
 .team-link {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
   font-size: 20px;
   color: #333333;
@@ -481,10 +193,10 @@ footer a:hover {
 
 .team-text {
   margin-bottom: 24px !important;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
-  color: #000000;
+  color: #333333;
 }
 
 .team-img-left,
@@ -522,12 +234,11 @@ h3 {
   margin-bottom: 0;
 }
 
-
 .team-name-helped {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: Medium;
   font-size: 22px;
-  color: #F46B5D;
+  color: #f46b5d;
   font-weight: 500;
   margin: 12px 0 7px 0;
 }
@@ -536,6 +247,7 @@ h3 {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
+  color: #333333;
 }
 
 .grid-container {
@@ -553,39 +265,44 @@ h3 {
   margin-left: 40px;
 }
 
+/* team-join block */
+
 .team-join {
   background: rgba(255, 241, 236, 1);
-  padding: 98px 0 96px 0;
+  padding: 70px 0 74px 0;
 }
 
-.team-join-black {
-  font-family: 'Inter';
+.team-join__title {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 16px;
+    color: #333333;
+    text-align: center;
+  }
+
+.team-join__subtitle {
+  font-family: "Inter";
   font-weight: 500;
-  font-size: 36px;
+  font-size: 20px;
   color: #333333;
-  margin-bottom: 10px;
-}
+  margin-bottom: 40px;
+  text-align: center;
 
-.team-join-red {
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 28px;
-  color: #F46B5D;
-  margin-bottom: 48px;
 }
 
 .form-alert-title {
   font-size: 40px;
   display: flex;
   justify-content: center;
-  color: #F46B5D;
+  color: #f46b5d;
 }
 
 .form-alert-text {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  color: #F46B5D;
+  color: #f46b5d;
   margin-bottom: 120px;
 }
 
@@ -629,9 +346,9 @@ h3 {
 }
 
 .buttons a {
-  color: #FFF1EC;
+  color: #fff1ec;
   text-decoration: none;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -639,11 +356,10 @@ h3 {
 
 .buttons a,
 .share-card button {
-  background-color: #FB8F67;
+  background-color: #fb8f67;
   padding: 6px;
   border-radius: 10px;
 }
-
 
 .buttons a:hover,
 .share-card button:hover {
@@ -667,102 +383,14 @@ h3 {
 }
 
 h3 .button-donate {
-  background-color: #F46B5D;
-}
-
-@media screen and (max-width: 1200px) {
-  .container {
-    width: 90%;
-  }
-
-  .form div button {
-    margin-top: 30px;
-  }
+  background-color: #f46b5d;
 }
 
 @media screen and (max-width: 991px) {
 
-  .media__menu {
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.92);
-    overflow-y: hidden;
-    transition: 0.5s;
-  }
-
-  a.close__btn {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgba(29, 135, 140, 1);
-    display: block;
-    transition: 0.3s;
-  }
-
-  #menu-items {
-    margin-top: 120px;
-  }
-
-  .header__menu {
-    padding-top: 0;
-    position: relative;
-    top: 15%;
-    width: 100%;
-    text-align: center;
-  }
-
-  .header-menu {
-    margin-top: 0;
-  }
-
-  .header-menu li {
-    margin: 46px 0 0 70px;
-  }
-
-  .media__menu a:hover,
-  .media__menu a:focus {
-    color: rgb(119, 172, 175);
-  }
-
-  .media__menu .close__btn {
-    position: absolute;
-    top: 5px;
-    right: 45px;
-    font-size: 40px;
-  }
-
-  .mn a {
-    color: rgba(29, 135, 140, 1);
-  }
-
-  .media__cursor {
-    cursor: pointer;
-    margin-top: 56px;
-  }
-
-  .media__cursor:hover {
-    color: rgba(29, 135, 140, 1);
-
-  }
-
-  .you-can-bg1 {
-    height: 560px;
-  }
-
-  .you-can-bg2 {
-    height: 100px;
-  }
-
-  .you-can-3 {
-    margin-top: 30px;
-  }
-
   .team-title {
     margin-bottom: 70px;
+    margin-top: 50px;
   }
 
   .team-1,
@@ -803,36 +431,6 @@ h3 .button-donate {
 
 @media screen and (max-width: 767px) {
 
-  .main-banner-img {
-    margin-left: 0;
-  }
-
-  .main-banner-text p {
-    text-align: center;
-  }
-
-  .main-banner-block {
-    flex-wrap: wrap-reverse;
-  }
-
-  .you-can-bg1 {
-    height: 760px;
-  }
-
-  .you-can-1,
-  .you-can-2 {
-    margin-top: 30px;
-  }
-
-  footer {
-    padding-left: 30px;
-  }
-
-  footer img {
-    width: 145px;
-    height: auto;
-  }
-
   .team-1,
   .team-2,
   .team-3 {
@@ -850,12 +448,12 @@ h3 .button-donate {
     justify-content: center;
   }
 
-  .team-member-card>div:first-child,
-  .team-member-card--even>div:last-child {
+  .team-member-card > div:first-child,
+  .team-member-card--even > div:last-child {
     order: -1 !important;
   }
 
-  .team-member-card--even>div:first-child {
+  .team-member-card--even > div:first-child {
     display: none;
   }
 
@@ -926,35 +524,14 @@ h3 .button-donate {
     margin: 80px 0 100px;
   }
 
-  .logo-img {
-    width: 200px;
-    height: auto;
-  }
-
-  .media__cursor {
-    margin-top: 50px;
-  }
-
   h3 {
     font-size: 32px;
     margin: 15px 0 35px;
     line-height: 120%;
   }
 
-  .team-join {
-    background: rgba(255, 241, 236, 1);
-    padding: 62px 0 66px;
-  }
+  /* team-join block */
 
-  .team-join-black {
-    font-size: 30px;
-    margin-bottom: 16px;
-  }
-
-  .team-join-red {
-    font-size: 24px;
-    margin-bottom: 38px;
-  }
 
   .team-member-card .team-text {
     text-align: justify !important;
@@ -962,6 +539,20 @@ h3 .button-donate {
 }
 
 @media screen and (max-width: 575px) {
+  /* team-join block */
+
+  .team-join {
+  padding: 05px 0 60px 0;
+  }
+
+.team-join__title {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+.team-join__subtitle {
+  font-size: 18px;
+}
 
   .form input,
   button {
@@ -976,22 +567,9 @@ h3 .button-donate {
     margin-bottom: 30px;
   }
 
-  .team-join-black {
-    font-size: 26px;
-    margin-bottom: 10px;
-  }
-
-  .team-join-red {
-    font-size: 22px;
-    margin-bottom: 28px;
-  }
 }
 
-@media screen and (max-width: 458px) {
-  .media__cursor {
-    margin-top: 48px;
-  }
-}
+
 
 @media screen and (max-width: 410px) {
   body {

@@ -10,30 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
+   <header>
+        <div class="container container-header">
+            <div class="row header__row">
                 <div class="col-4 logo">
-                    <a href="../index.html"><img class="img-fluid" src="../images/logo.svg" alt="logo"></a>
+                    <a href="../index.html"><img class="logo-img" src="../images/logo.svg" alt="logo"></a>
                 </div>
                 <div class="col-8">
                     <nav id="myNav" class="header-menu media__menu">
-                        <a href="javascript:void(0)" class="close__btn d-lg-none d-md-flex" onclick="closeNav()">&times;</a>
-                        <ul id="menu-items" class="d-lg-flex d-md-block flex justify-content-end align-item-center">
+                        <div class="media__menu-header d-lg-none">
+                            <a href="../index.html"><img class="logo-img" src="../images/logo.svg" alt="logo"></a>
+                            <button type="button" id="closeMenuBtn" class="close__btn d-lg-none d-md-flex">&times;</button>
+                        </div>
+                     
+                        <ul id="menu-items" class="menu-list d-lg-flex d-md-block flex justify-content-end align-item-center">
                             <li class="mn">
-                                <a class="item active" href="../index.html">home</a>
+                                <a class="item" href="../about-us.html">our team</a>
                             </li>
                             <li class="mn">
-                                <a class="item active" href="../about-us.html">about us</a>
+                                <a class="item" href="https://app.wefriiends.com/">sign in</a>
                             </li>
                             <li class="mn">
                                 <a class="item" target="_blank" href="https://github.com/sponsors/WeFriiends">donate</a>
                             </li>
+                             <li class="mn">
+                                <a class="item" href="mailto:o.zavizionnaya@gmail.com">contact</a>
+                            </li>
                         </ul>
                     </nav>
-                    <span class="media__cursor d-lg-none d-flex justify-content-end" onclick="openNav()">&#9776;</span>
+                   <button type="button" id="openMenuBtn" class="media__cursor d-lg-none d-flex justify-content-end">
+                        <img src="../images/br-menu.png" alt="menu">
+                    </button>
                 </div>
             </div>
         </div>
@@ -174,34 +185,18 @@
         
     </main>
     
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 footer-logo">
-                    <img src="../images/white-logo.svg" alt="white-logo">
-                </div>
-                <nav class="col-12 col-lg-6 row ">
-                    <ul class="footer-1 col-lg-6">
-                        <li>
-                            <a href="../index.html">home</a>
-                        </li>
-                        <li>
-                            <a href="../about-us.html">about us</a>
-                        </li>
-                        <li>
-                            <a class="item" target="_blank" href="https://github.com/sponsors/WeFriiends">donate</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-2 col-lg-6">
-                        <li>
-                            <a target="_blank" href="privacy.html">privacy policy</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="terms.html">terms of use</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+     <footer class="footer">
+        <div class="container footer__container">
+            <img class="footer-logo" src="../images/white-logo.svg" alt="white-logo">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="../about-us.html">about us</a></li>
+                    <li class="footer__item"><a target="_blank" href="privacy.html">privacy policy</a></li>
+                    <li class="footer__item"><a class="" href="mailto:o.zavizionnaya@gmail.com">contact</a></li>
+                    <li class="footer__item"><a target="_blank" href="terms.html">terms of use</a></li>
+                </ul>
+            </nav>
+
         </div>
     </footer>
     <script>
