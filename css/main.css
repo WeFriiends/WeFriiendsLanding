@@ -208,6 +208,37 @@
   color: #fb8f67;
 }
 
+/* example-app */
+
+.example-app {
+  padding-bottom: 98px;
+}
+
+.example-app__block {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.example-app__block {
+  width: 100%;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.example-app__block::-webkit-scrollbar {
+  display: none;
+}
+
+.example-app__img {
+  width: 390px;
+  height: 700px;
+}
+
 /* donate block */
 
 .donate {
@@ -279,6 +310,13 @@
     width: 300px;
     align-self: flex-end;
   }
+
+  /* example-app */
+
+  .example-app__img {
+    width: 280px;
+    height: 500px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -342,6 +380,10 @@
   }
 
   /* ready to start block 575 */
+
+  .ready-start {
+    padding-bottom: 40px;
+  }
 
   .ready-start__block {
     width: 100%;
