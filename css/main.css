@@ -1,22 +1,24 @@
 /* main-banner block */
 
 .main-banner {
-  padding-top: 80px;
   background: linear-gradient(0deg, #fff1ec 20%, #ffffff 100%);
 }
 
 .main-banner-block {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .main-banner-text {
-  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .main-banner-text .description-text {
   max-width: 380px;
-  margin-bottom: 40px;
 }
 
 .main-banner_button {
@@ -24,6 +26,7 @@
 }
 
 .main-banner-img {
+  margin-top: 66px;
   align-self: flex-end;
 }
 
@@ -66,7 +69,13 @@
 .our-best {
   padding-top: 50px;
   padding-bottom: 150px;
-  background: linear-gradient(0deg, #fff1ec00 0%, #f8e1d8 30%, #f8e1d8 60%, #fff1ec00 100%);
+  background: linear-gradient(
+    0deg,
+    #fff1ec00 0%,
+    #f8e1d8 30%,
+    #f8e1d8 60%,
+    #fff1ec00 100%
+  );
 }
 
 .our-best__container {
@@ -169,12 +178,15 @@
 
 .ready-start__block {
   width: 100%;
-  margin-top: 75px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   gap: 50px;
+}
+
+.ready-start__content {
+  margin-top: 20px;
 }
 
 .ready-start__text-1 {
@@ -188,7 +200,6 @@
 }
 
 .ready-start__text-2 {
-  margin-bottom: 30px;
   font-family: "Inter";
   font-style: semibold;
   font-weight: 600;
@@ -240,11 +251,11 @@
 
   .description-text {
     margin-top: 25px;
-    margin-bottom: 40px;
   }
 
   .main-banner-img {
     width: 100%;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
   }
@@ -274,8 +285,8 @@
   /* .our best block */
 
   .our-best {
-  padding-bottom: 120px;
-}
+    padding-bottom: 120px;
+  }
 
   .our-best__list {
     flex-direction: column;
