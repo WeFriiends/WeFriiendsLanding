@@ -47,6 +47,7 @@ function creatingUrl(apiUrl, apiKey, name, email, listIds) {
   return `${apiUrl}/subscribe?format=json&api_key=${apiKey}&list_ids=${listIds}&fields[email]=${email}&fields[Name]=${name}`;
 }*/
 
+
 console.log("debug: JS works");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -176,3 +177,10 @@ function shareOnViber() {
   var url = encodeURIComponent(text + " " + window.location.href);
   window.location.href = "viber://forward?text=" + url;
 }
+
+const swiper = new Swiper(".mySwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 20,
+  loop: true,
+  grabCursor: true, 
+});
