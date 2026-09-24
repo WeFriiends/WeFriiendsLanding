@@ -221,9 +221,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-}
-
-.example-app__block {
   width: 100%;
   overflow: auto;
   scrollbar-width: none;
