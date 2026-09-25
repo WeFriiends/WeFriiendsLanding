@@ -176,3 +176,12 @@ function shareOnViber() {
   var url = encodeURIComponent(text + " " + window.location.href);
   window.location.href = "viber://forward?text=" + url;
 }
+
+if (document.querySelector("#example-app__swiper")) {
+  const swiper = new Swiper("#example-app__swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 20,
+    loop: true,
+    grabCursor: true,
+  });
+}
