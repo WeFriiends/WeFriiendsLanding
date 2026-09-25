@@ -47,7 +47,6 @@ function creatingUrl(apiUrl, apiKey, name, email, listIds) {
   return `${apiUrl}/subscribe?format=json&api_key=${apiKey}&list_ids=${listIds}&fields[email]=${email}&fields[Name]=${name}`;
 }*/
 
-
 console.log("debug: JS works");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -178,9 +177,11 @@ function shareOnViber() {
   window.location.href = "viber://forward?text=" + url;
 }
 
-const swiper = new Swiper(".mySwiper", {
-  slidesPerView: "auto",
-  spaceBetween: 20,
-  loop: true,
-  grabCursor: true, 
-});
+if (document.querySelector("#example-app__swiper")) {
+  const swiper = new Swiper("#example-app__swiper", {
+    slidesPerView: "auto",
+    spaceBetween: 20,
+    loop: true,
+    grabCursor: true,
+  });
+}
