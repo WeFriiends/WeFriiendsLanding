@@ -230,17 +230,15 @@
 }
 
 .example-app__item {
-  width: 390px; 
-  height: 700px; 
+  width: 390px;
+  height: 700px;
 }
-
 
 .example-app__img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-
 
 /* donate block */
 
@@ -273,6 +271,14 @@
 
 /* media --------------- */
 
+@media screen and (max-width: 1024px) {
+  /* ready to start block */
+
+  .ready-start .section-title {
+    position: static;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .main-banner {
     padding-top: 50px;
@@ -293,12 +299,6 @@
   .main-banner-img img {
     width: 100%;
   }
-
-  /* ready to start block */
-
-.ready-start .section-title {
-  position: static;
-}
 
   /* .you-can block */
 
