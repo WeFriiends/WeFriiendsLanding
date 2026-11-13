@@ -2,6 +2,8 @@ name: Deploy landing
 
 on:
   push:
+    branches:
+      - 'WFW-869fg2z0p_GitHub-actions-integration-for-automated-deployment'
     tags:
       - 'v*.*.*'
       - 'v*'
