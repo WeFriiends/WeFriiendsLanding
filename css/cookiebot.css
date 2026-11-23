@@ -1,0 +1,61 @@
+/*
+  Cookiebot consent banner — WeFriiends styles.
+  Overrides the default Cookiebot template (see "Overriding styles for the cookie banner
+  with an external stylesheet" in Cookiebot support). !important is required because
+  Cookiebot injects its own styles after ours.
+  If Cookiebot changes its template, the selectors below may need updating.
+
+  Colors are darker shades of the landing brand colors (#f46b5d, #fc9d7a) so the banner
+  meets WCAG 2.1 AA contrast against white:
+    #cd4739 — 4.61:1, #be5630 — 4.60:1 (text >= 4.5:1, UI components >= 3:1).
+*/
+
+#CybotCookiebotDialog {
+  font-family: "Inter", sans-serif !important;
+  color: #333333 !important;
+  border-radius: 16px !important;
+}
+
+#CybotCookiebotDialog * {
+  font-family: inherit !important;
+}
+
+#CybotCookiebotDialog .CybotCookiebotDialogBodyButton {
+  background: linear-gradient(-90deg, #cd4739 0%, #be5630 100%) !important;
+  border: none !important;
+  border-radius: 60px !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+}
+
+/* Darken on hover (opacity would lighten the button and lower the contrast) */
+#CybotCookiebotDialog .CybotCookiebotDialogBodyButton:hover {
+  filter: brightness(0.9);
+}
+
+/* Keyboard focus ring */
+#CybotCookiebotDialog *:focus-visible {
+  outline-color: #cd4739 !important;
+}
+
+#CybotCookiebotDialog .CybotCookiebotDialogBodyButton:focus-visible {
+  outline: 2px solid #cd4739 !important;
+  outline-offset: 2px;
+}
+
+/* Links and "Show more" toggle */
+#CybotCookiebotDialog a,
+#CybotCookiebotDialog #CybotCookiebotDialogBodyContentTextToggle {
+  color: #cd4739 !important;
+}
+
+/* Active tab in the "Customize" view */
+#CybotCookiebotDialog .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
+  color: #cd4739 !important;
+  border-bottom-color: #cd4739 !important;
+}
+
+/* Category toggles in the "Customize" view */
+#CybotCookiebotDialog input:checked + .CybotCookiebotDialogBodyLevelButtonSlider {
+  background-color: #cd4739 !important;
+}
