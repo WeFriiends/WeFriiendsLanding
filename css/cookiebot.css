@@ -4,10 +4,6 @@
   with an external stylesheet" in Cookiebot support). !important is required because
   Cookiebot injects its own styles after ours.
   If Cookiebot changes its template, the selectors below may need updating.
-
-  Colors are darker shades of the landing brand colors (#f46b5d, #fc9d7a) so the banner
-  meets WCAG 2.1 AA contrast against white:
-    #cd4739 — 4.61:1, #be5630 — 4.60:1 (text >= 4.5:1, UI components >= 3:1).
 */
 
 #CybotCookiebotDialog {
