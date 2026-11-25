@@ -473,7 +473,7 @@ h3 .button-donate {
 
   .team-name,
   .team-profession {
-    text-align: center !important;
+    text-align: start !important;
   }
 
   .team-member-card--even .team-text {
@@ -482,19 +482,19 @@ h3 .button-donate {
   }
 
   .team-member-card--even .team-name {
-    text-align: center !important;
+    text-align: start !important;
   }
 
   .team-member-card--even .team-profession {
-    text-align: center !important;
+    text-align: start !important;
   }
 
   .team-link {
-    justify-content: center !important;
+    justify-content: start !important;
   }
 
   .team-member-card--even .team-link {
-    justify-content: center !important;
+    justify-content: start !important;
   }
 
   .button-donate {
