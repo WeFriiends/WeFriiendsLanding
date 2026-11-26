@@ -247,6 +247,12 @@ a {
   color: #ffffffc7;
 }
 
+@media screen and (min-width: 734px) {
+  .footer__item--cookie {
+    margin-left: auto;
+  }
+}
+
 @media screen and (max-width: 991px) {
   /* header */
 

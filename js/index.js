@@ -185,3 +185,14 @@ if (document.querySelector("#example-app__swiper")) {
     grabCursor: true,
   });
 }
+
+const cookieSettingsLinks = document.querySelectorAll("[data-cookie-settings]");
+
+cookieSettingsLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (window.Cookiebot) {
+      window.Cookiebot.renew();
+    }
+  });
+});
